@@ -4,6 +4,8 @@
 
   <head>
     <title>School Tool</title>
+    <link href=“https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap-theme.min.css” rel=“stylesheet” crossorigin=“anonymous”>
+    <link href="{% static 'schooltool/style.css' %}" rel="stylesheet">
   </head>
 
   <body>
@@ -21,6 +23,7 @@
       <div class="row">
         <div class="col-xs-12">
           {% block content %}
+          {% endblock %}
         </div>
       </div>
     </div>
